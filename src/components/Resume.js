@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router-dom"
 import './Resume.css'
 
 function Resume() {
-  const navigate = useNavigate();
 
 return(
   <div className="container">

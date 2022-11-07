@@ -1,11 +1,6 @@
-import { useNavigate } from "react-router-dom"
-// import { FontAwesomeIcon } from '@fortawesome/react-font'
-// import { faGithub } from '@fortawesome/free-solid-svg-icons'
-
 import './Projects.css'
 
 function Projects() {
-  const navigate = useNavigate();
   const myprojects = [
     {
       name: "Hikr App",
