@@ -1,0 +1,8 @@
+.social {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-top: 200px;
+  flex-direction: column;
+  gap: 10px;
+}

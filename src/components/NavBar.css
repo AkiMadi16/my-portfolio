@@ -1,0 +1,15 @@
+.titles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+.navlink.active {
+  color: red;
+}
