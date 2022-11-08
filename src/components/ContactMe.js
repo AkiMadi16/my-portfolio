@@ -9,7 +9,7 @@ function ContactMe() {
 
     const formData = new FormData(e.target);
 
-    fetch(e.target.action, {
+    fetch('/', {
       method: 'post',
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
