@@ -33,6 +33,7 @@ function ContactMe() {
              {/* <form onSubmit={handleOnSubmit}>  */}
               {/* <form onSubmit={handleOnSubmit} action="https://mailthis.to/madie86@gmail.com" method="POST" encType="multipart/form-data"> */}
               <form name="contact" netlify onSubmit={handleOnSubmit}>
+                <input type="hidden" name="form-name" value="contact" />
 
                 <div className="mb-3">
                   <label 
@@ -53,7 +54,7 @@ function ContactMe() {
                       type="email"
                       className="form-control" 
                       id="email" 
-                      name='_replyto' 
+                      name='email' 
                       placeholder="Your Email"
                       required />
                 </div>
@@ -66,8 +67,6 @@ function ContactMe() {
                     placeholder="Your message"
                     />
                 </div>
-                <input type="hidden" name="_subject" value="Contact form submitted from my portfolio" />
-                <input type="hidden" name="_honeypot" value="" />
                 <button 
                   className='btn btn-primary'
                   type='submit' >
