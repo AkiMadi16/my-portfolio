@@ -4,7 +4,20 @@ import React from 'react'
 import './ContactMe.css'
 
 function ContactMe() {
-  
+  const handleOnSubmit = e => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    fetch(e.target.action, {
+      method: 'post',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    }).then((response) => response.json())
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+  }
+
   return (
     <div className="container_form">
       <div className="row">
@@ -18,7 +31,8 @@ function ContactMe() {
                 <h5><FontAwesomeIcon icon={ faEnvelope } /> madie86@gmail.com</h5>
                </div>
              {/* <form onSubmit={handleOnSubmit}>  */}
-              <form action="https://mailthis.to/madie86@gmail.com" method="POST" encType="multipart/form-data">
+              {/* <form onSubmit={handleOnSubmit} action="https://mailthis.to/madie86@gmail.com" method="POST" encType="multipart/form-data"> */}
+              <form name="contact" netlify onSubmit={handleOnSubmit}>
 
                 <div className="mb-3">
                   <label 
@@ -26,7 +40,7 @@ function ContactMe() {
                   className="form-label"></label>
                   <input 
                     type="fullname" 
-                    name="fullname" 
+                    name="name" 
                     className="form-control" 
                     id="fullname" 
                     placeholder="Your Full Name"
@@ -39,7 +53,7 @@ function ContactMe() {
                       type="email"
                       className="form-control" 
                       id="email" 
-                      name='email' 
+                      name='_replyto' 
                       placeholder="Your Email"
                       required />
                 </div>
@@ -52,6 +66,8 @@ function ContactMe() {
                     placeholder="Your message"
                     />
                 </div>
+                <input type="hidden" name="_subject" value="Contact form submitted from my portfolio" />
+                <input type="hidden" name="_honeypot" value="" />
                 <button 
                   className='btn btn-primary'
                   type='submit' >
