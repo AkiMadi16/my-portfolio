@@ -6,10 +6,11 @@
   margin: 20px 0;
 }
 
+
 .navlink {
   text-decoration: none;
 }
 
 .navlink.active {
-  color: red;
+  color: rgb(9, 10, 25);
 }
