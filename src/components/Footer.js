@@ -22,7 +22,7 @@ export default function Footer() {
             <span className="sr-only">Facebook page</span>
           </a> */}
           <a
-            href="#"
+            href="https://twitter.com/tweetymadie"
             className="text-gray-900 hover:text-gray-400 dark:hover:text-white"
             target="_blank"
             rel="noopener noreferrer"
