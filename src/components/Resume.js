@@ -8,9 +8,9 @@ export default function Resume() {
       <div id="sidebar" className="content w-full py-8 px-4">
         <div className="px-2 py-4 mb-12  ">
           <img
-            src="https://i.imgur.com/HOLjs5r.png"
+            src="https://i.imgur.com/ANO0Cdu.png?1"
             alt=""
-            className="rounded-full w-48 mx-auto mb-2"
+            className="rounded-full w-50 h-44 mx-auto mb-4"
           />
           <h1 className="text-center text-3xl font-semibold mb-2">
             Madhavi Meegahapola
