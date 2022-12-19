@@ -13,12 +13,12 @@ function AboutMe() {
           helping many people to navigate computers and mobile phones. That led
           me into having interest in User Experience Design.
         </p>
-        <p>
+        <p className="mt-2">
           I was working in civil engineering field and when I come to australia
           I've worked as a customer service officer and helped people as a
           volunteer.
         </p>
-        <p>
+        <p className="mt-2">
           Lately, I've discovered my passion for the world of web development
           and the beauty behind building useful websites like the one you will
           find in this portfolio. I'm now looking for a junior dev position to
@@ -66,67 +66,67 @@ function AboutMe() {
               </ul>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-half md:w-1/2 w/6 mx-auto flex md:flex-row gap-4 flex-col items-center ">
+          <div className="mt-6 flex flex-wrap gap-4 items-center justify-center">
             <div className="overflow-x-auto w-50%">
               <img
                 src="https://i.imgur.com/G8CZMt6.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/XLUAiSs.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/QISfjom.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/AKHPl1S.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/VMI6RzS.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/eMQ900P.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/FlX1enD.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/x9sHxFE.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/3Ss2h91.png"
-                className="float-right"
+                className="w-6 md:w-12"
                 alt=""
               />
             </div>
