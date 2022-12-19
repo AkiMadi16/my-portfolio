@@ -3,7 +3,7 @@ function AboutMe() {
     <div className="container flex-1 mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
       <div>
         <p
-          class="first-line:uppercase first-line:tracking-widest
+          className="first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
   first-letter:mr-3 first-letter:float-left
 "
@@ -30,36 +30,16 @@ function AboutMe() {
             <h2 className="text-lg uppercase mb-4">Skills & Tools</h2>
             <div className="flex space-x-6">
               <ul className="list-none ">
-                <li>
-                  <label for="js-skill">JavaScript</label>
-                </li>
-                <li>
-                  <label for="react-skill">React</label>
-                </li>
-                <li>
-                  <label for="ruby-skill">Ruby | Ruby-on-Rails</label>
-                </li>
-                <li>
-                  <label for="nodejs-skill">CSS | SCSS</label>
-                </li>
-                <li>
-                  <label for="eleventy-skill">HTML5</label>
-                </li>
-                <li>
-                  <label for="node-skill">Node | Express.js</label>
-                </li>
-                <li>
-                  <label for="css-skill">Bootstrap | Tailwind</label>
-                </li>
-                <li>
-                  <label for="design-skill">Figma</label>
-                </li>
-                <li>
-                  <label for="design-skill">Postman | CURL</label>
-                </li>
-                <li>
-                  <label for="design-skill">TRELLO</label>
-                </li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Ruby | Ruby-on-Rails</li>
+                <li>CSS | SCSS</li>
+                <li>HTML5</li>
+                <li>Node | Express.js</li>
+                <li>Bootstrap | Tailwind</li>
+                <li>Figma</li>
+                <li>Postman | CURL</li>
+                <li>TRELLO</li>
 
                 <li>
                   <div className=" gap-4">

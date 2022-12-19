@@ -132,36 +132,16 @@ export default function Resume() {
           <div className=" inline font-light text-sm px-10 mb-12">
             <h2 className="text-light font-semibold mb-4">Skills & Tools</h2>
             <ul className="list-none  ">
-              <li>
-                <label for="js-skill">JavaScript</label>
-              </li>
-              <li>
-                <label for="react-skill">React</label>
-              </li>
-              <li>
-                <label for="ruby-skill">Ruby | Ruby-on-Rails</label>
-              </li>
-              <li>
-                <label for="nodejs-skill">CSS | SCSS</label>
-              </li>
-              <li>
-                <label for="eleventy-skill">HTML5</label>
-              </li>
-              <li>
-                <label for="node-skill">Node | Express.js</label>
-              </li>
-              <li>
-                <label for="css-skill">Bootstrap | Tailwind</label>
-              </li>
-              <li>
-                <label for="design-skill">Figma</label>
-              </li>
-              <li>
-                <label for="design-skill">Postman | CURL</label>
-              </li>
-              <li>
-                <label for="design-skill">TRELLO</label>
-              </li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Ruby | Ruby-on-Rails</li>
+              <li>CSS | SCSS</li>
+              <li>HTML5</li>
+              <li>Node | Express.js</li>
+              <li>Bootstrap | Tailwind</li>
+              <li>Figma</li>
+              <li>Postman | CURL</li>
+              <li>TRELLO</li>
 
               <li>
                 <div>Infrastructure | Hosting | DB</div>

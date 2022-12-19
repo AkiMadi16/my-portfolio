@@ -46,7 +46,7 @@ function ContactMe() {
               </div>
               {/* <form onSubmit={handleOnSubmit}>  */}
               {/* <form onSubmit={handleOnSubmit} action="https://mailthis.to/madie86@gmail.com" method="POST" encType="multipart/form-data"> */}
-              <form name="contact" netlify onSubmit={handleOnSubmit}>
+              <form name="contact" netlify="true" onSubmit={handleOnSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
 
                 <div className="mt-8 space-y-6">
