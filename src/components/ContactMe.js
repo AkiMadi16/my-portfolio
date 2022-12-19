@@ -49,32 +49,36 @@ function ContactMe() {
               <form name="contact" netlify="true" onSubmit={handleOnSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
 
-                <div className="mt-8 space-y-6">
-                  <label htmlFor="email" className="sr-only"></label>
+                <div className="mt-8 space-y-6 rounded-md p-2">
+                  <label htmlFor="name" className="sr-only">
+                    Name
+                  </label>
                   <input
                     type="fullname"
                     name="name"
-                    className="sr-only"
                     id="fullname"
                     placeholder="Your Full Name"
+                    className="relative block w-full appearance-none rounded border border-gray-300 px-3 py-2 mt-10 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                     required
                   />
                 </div>
-                <div className="-space-y-px rounded-md shadow-sm">
-                  <label htmlFor="email" className="sr-only"></label>
+                <div className="-space-y-px rounded-md p-2">
+                  <label htmlFor="email" className="sr-only">
+                    Email
+                  </label>
                   <input
                     type="email"
-                    className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 mt-10 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                    className="relative block w-full appearance-none rounded border border-gray-300 px-3 py-2 mt-10 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                     id="email"
                     name="email"
                     placeholder="Your Email"
                     required
                   />
                 </div>
-                <div className="-space-y-px rounded-mb  shadow-sm">
+                <div className="-space-y-px rounded-mb p-2">
                   <textarea
                     type="message"
-                    className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 mt-5 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                    className="relative block w-full appearance-none rounded border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                     id="message"
                     name="message"
                     placeholder="Your message"
