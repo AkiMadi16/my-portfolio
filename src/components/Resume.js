@@ -9,7 +9,7 @@ export default function Resume() {
         <div className="px-2 py-4 mb-12  ">
           <img
             src="https://i.imgur.com/ANO0Cdu.png?1"
-            alt=""
+            alt="madhavi"
             className="rounded-full w-50 h-44 mx-auto mb-4"
           />
           <h1 className="text-center text-3xl font-semibold mb-2">
