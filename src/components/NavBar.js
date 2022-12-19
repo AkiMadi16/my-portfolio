@@ -2,12 +2,11 @@ import "./NavBar.css";
 
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "About Me", href: "/AboutMe", current: false },
-  // { name: "Social", href: "/Social", current: false },
   { name: "Projects", href: "/Projects", current: false },
   { name: "Resume", href: "/Resume", current: false },
   { name: "Contact", href: "/ContactMe", current: false },

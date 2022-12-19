@@ -9,7 +9,7 @@ export default function Resume() {
         <div className="px-2 py-4 mb-12  ">
           <img
             src="https://i.imgur.com/HOLjs5r.png"
-            alt="Profile Picture"
+            alt=""
             className="rounded-full w-48 mx-auto mb-2"
           />
           <h1 className="text-center text-3xl font-semibold mb-2">
@@ -118,7 +118,11 @@ export default function Resume() {
           </div>
           <div className="flex items-center my-3">
             <FontAwesomeIcon className="inline w-6 mr-4" icon={faGlobe} />
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://app.netlify.com/sites/lambent-douhua-febd8c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Portfolio
             </a>
           </div>
