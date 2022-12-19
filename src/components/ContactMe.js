@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
+import { useState } from "react";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
 
 function ContactMe() {
+  const [submitted, setSubmitted] = useState(false);
+
   const handleOnSubmit = (e) => {
     e.preventDefault();
 
@@ -14,8 +16,7 @@ function ContactMe() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then((response) => response.json())
-      .then(() => console.log("Form successfully submitted"))
+      .then(() => setSubmitted(true))
       .catch((error) => alert(error));
   };
 
@@ -34,6 +35,14 @@ function ContactMe() {
               <h2 className="mt-2 text-center text-md text-gray-600">
                 Contact Me
               </h2>
+              {submitted && (
+                <div
+                  class="p-4 mb-4 mx-2 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800"
+                  role="alert"
+                >
+                  Message submitted. Thank you, I will get back to you soon.
+                </div>
+              )}
               <div className="contact__options">
                 <h5 className="mt-2 text-center text-md text-gray-600">
                   <a
