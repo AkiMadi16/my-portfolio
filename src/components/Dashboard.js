@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Dashboard.css";
 
 export default function Dashboard() {
@@ -18,12 +19,12 @@ export default function Dashboard() {
           <br />I love to build amazing apps.
         </p>
         <div className="flex justify-center">
-          <a
-            href="/ContactMe"
+          <Link
+            to="contactme"
             className="text-gray-800 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-bold uppercase rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             ✉️ Hire Me
-          </a>
+          </Link>
           {/* <a
               href="/Projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
