@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
+import { Helmet } from "react-helmet";
 
 function ContactMe() {
   const [submitted, setSubmitted] = useState(false);
@@ -22,6 +23,9 @@ function ContactMe() {
 
   return (
     <div className="flex flex-1 min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <Helmet>
+        <title>Contact Me | Madhavi Meegahapola</title>
+      </Helmet>
       <div className="w-full max-w-md space-y-8 mt-10 mb-10 border border-2 bg-green-200 ">
         <div className="col-md-6 offset-md-3">
           <div className="mt-2 text-center text-md text-gray-600">

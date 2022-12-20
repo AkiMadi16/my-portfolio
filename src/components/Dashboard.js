@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import "./Dashboard.css";
 
 export default function Dashboard() {
   return (
     <div className="container flex-1 flex flex-col justify-center items-center text-center mx-auto">
+      <Helmet>
+        <title>Madhavi Meegahapola</title>
+      </Helmet>
       <div className="p-12">
         <h1 className="relative title-font sm:text-4xl text-3xl mb-4 font-large font-bold text-black">
           <span className="relative">

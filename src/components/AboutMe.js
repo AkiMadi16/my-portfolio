@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet";
+
 function AboutMe() {
   return (
     <div className="container flex-1 mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <Helmet>
+        <title>About Me | Madhavi Meegahapola</title>
+      </Helmet>
       <div>
         <p
           className="first-line:uppercase first-line:tracking-widest

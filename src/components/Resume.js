@@ -1,10 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet";
 
 export default function Resume() {
   return (
     <div className="md:columns-2 flex-1">
+      <Helmet>
+        <title>Resume | Madhavi Meegahapola</title>
+      </Helmet>
       <div id="sidebar" className="content w-full py-8 px-4">
         <div className="px-2 py-4 mb-12  ">
           <img

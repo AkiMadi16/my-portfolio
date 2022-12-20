@@ -4,6 +4,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 import "pure-react-carousel/dist/react-carousel.es.css";
+import { Helmet } from "react-helmet";
 
 /*
   This example requires some changes to your config:
@@ -114,6 +115,9 @@ const callouts = [
 export default function Projects() {
   return (
     <div className="flex-1">
+      <Helmet>
+        <title>Projects | Madhavi Meegahapola</title>
+      </Helmet>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
           <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
