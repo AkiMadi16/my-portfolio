@@ -53,7 +53,7 @@ export default function Resume() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1jYvovUiw4igrRRRZ0wvl8i8UEF-Sr8Hz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QWWGiSBUR8ibjGp5tfsUnTcq3aj_DUYg/view?usp=sharing"
               className="text-gray-800 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-bold uppercase rounded-lg text-sm px-20 py-3 text-center"
             >
               Download

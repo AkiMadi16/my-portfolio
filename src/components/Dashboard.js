@@ -14,7 +14,7 @@ export default function Dashboard() {
             <sup className="absolute -top-8 -rotate-12 -left-10 font-Caveat text-3xl mb-4 font-large text-black">
               Hello, I'm
             </sup>
-            <span className="uppercase">Madhavi Meegahapola</span>
+            <span className="uppercase font-black">Madhavi Meegahapola</span>
           </span>
           <br className="hidden lg:inline-block" />
         </h1>
@@ -41,7 +41,8 @@ export default function Dashboard() {
         {/* <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://i.imgur.com/HVsIHhw.jpg"
+            src="https://i.imgur.com/ANO0Cdu.png?1"
+"
           /> */}
       </div>
     </div>

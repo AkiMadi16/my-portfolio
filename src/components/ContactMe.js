@@ -98,7 +98,7 @@ function ContactMe() {
                   />
                 </div>
                 <button
-                  className="group relative flex w-half justify-center bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-bold uppercase  rounded-lg py-2 px-4 mt-5 mb-5 ml-40 pl-20 text-sm font-medium text-black  focus:ring-offset-2"
+                  className="group relative flex w-half justify-center items-center bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-bold uppercase  rounded-lg py-2 px-4 my-5 mx-auto pl-20 text-sm font-medium text-black  focus:ring-offset-2"
                   type="submit"
                 >
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
