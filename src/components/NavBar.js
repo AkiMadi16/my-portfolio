@@ -38,7 +38,7 @@ export default function NavBar() {
               <div className="flex flex-1 items-center justify-center">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-8 w-auto rounded-full lg:hidden"
+                    className="block h-8 w-auto rounded-full"
                     src="https://i.imgur.com/ANO0Cdu.png?1"
                     alt="Your Company"
                   />
