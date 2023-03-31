@@ -13,21 +13,23 @@ function AboutMe() {
   first-letter:mr-3 first-letter:float-left
 "
         >
-          Hi, I am Madhavi, and I'm passionate about building the websites. I
-          have started volunteering as a Digital Hub tutor in the library
-          helping many people to navigate computers and mobile phones. That led
-          me into having interest in User Experience Design.
+          Hi, I am Madhavi, and I'm passionate about building the websites. As a
+          junior software engineer with a background in civil engineering, I
+          bring a unique set of skills and perspectives to the field of
+          technology. In addition, my experience as a volunteer digital hub
+          tutor has inspired me to focus on user experience design.
         </p>
         <p className="mt-2">
-          I was working in civil engineering field and when I come to australia
-          I've worked as a customer service officer and helped people as a
-          volunteer.
+          Teaching people how to navigate tech devices, such as basic computer
+          literacy, was an eye-opening experience for me. It made me realize the
+          importance of designing user-friendly interfaces that cater to people
+          with diverse levels of tech knowledge.
         </p>
         <p className="mt-2">
-          Lately, I've discovered my passion for the world of web development
-          and the beauty behind building useful websites like the one you will
-          find in this portfolio. I'm now looking for a junior dev position to
-          finally kick start my career and learn among professionals.
+          Overall, my background in civil engineering and experience as a
+          digital hub tutor have shaped my approach to software development. I
+          am excited to continue learning and growing in this field, and I look
+          forward to contributing my unique perspective to future projects.
         </p>
 
         <div className="overflow-x-auto mt-10">

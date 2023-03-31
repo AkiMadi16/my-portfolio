@@ -94,9 +94,32 @@ const callouts = [
   {
     name: "Tic-Tac-Toe",
     description:
-      "HTML was used for building the content of the website, CSS for styling and JS for implementing the tic-tac-game. I used DOM manipulation in JS to interact with the HTML elements.",
+      "HTML was used for building the content of the website, CSS for styling and JS for implementing the tic-tac-toe game. I used DOM manipulation in JS to interact with the HTML elements.",
     imageSrc: [
       "https://i.imgur.com/FE17aoP.png",
+      "https://i.imgur.com/w1UtFL9.png",
+      "https://i.imgur.com/FE17aoP.png",
+    ],
+    imageAlt: "Win Lost Draw Game conditions.",
+    href: "#",
+    skills: "Javascript | HTML | CSS",
+    links: [
+      {
+        label: "Website",
+        url: "https://akimadi16.github.io/tic-tac-toe/",
+      },
+      {
+        label: "GitHub",
+        url: "https://github.com/AkiMadi16/tic-tac-toe",
+      },
+    ],
+  },
+  {
+    name: "PacMan Simulator",
+    description:
+      "HTML was used for building the content of the website, CSS for styling and JS for implementing the tic-tac-game. I used DOM manipulation in JS to interact with the HTML elements.",
+    imageSrc: [
+      "https://i.imgur.com/vXg7Xsz.png",
       "https://i.imgur.com/w1UtFL9.png",
       "https://i.imgur.com/FE17aoP.png",
     ],
@@ -105,8 +128,12 @@ const callouts = [
     skills: "Javascript | HTML | CSS",
     links: [
       {
+        label: "Website",
+        url: "https://akimadi16.github.io/Pacman-Simulator/",
+      },
+      {
         label: "GitHub",
-        url: "https://github.com/AkiMadi16/tic-tac-toe",
+        url: "https://github.com/AkiMadi16/Pacman-Simulator",
       },
     ],
   },
