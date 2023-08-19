@@ -1,22 +1,7 @@
 import "./Projects.css";
-
-import "pure-react-carousel/dist/react-carousel.es.css";
+// import "pure-react-carousel/dist/react-carousel.es.css";
 import { Project } from "./Project";
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 const callouts = [
   {
     name: "Hikr App",
@@ -152,14 +137,7 @@ export default function Projects() {
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
           <h2 className="text-2xl font-bold text-gray-900">Codepen Projects</h2>
 
-          <p
-            className="codepen mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
-            // data-height="300"
-            // data-default-tab="html,result"
-            // data-slug-hash="XWBjjKp"
-            // data-user="madie86"
-            // style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
-          >
+          <p className="codepen mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             <img
               className="h-full w-full"
               src="https://i.imgur.com/KoFoxio.png"
@@ -174,11 +152,11 @@ export default function Projects() {
               <a href="https://codepen.io">CodePen</a>.
             </span>
           </p>
-          <script
+          {/* <script
             className="h-full w-full"
             async
             src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-          ></script>
+          ></script> */}
           <div className="aspect-w-16 aspect-h-9">
             <iframe
               src="https://www.youtube.com/embed/pvGeWq94dAQ"
@@ -192,5 +170,3 @@ export default function Projects() {
     </div>
   );
 }
-
-// export default Projects;
