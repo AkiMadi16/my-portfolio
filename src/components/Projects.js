@@ -1,10 +1,7 @@
 import "./Projects.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 import "pure-react-carousel/dist/react-carousel.es.css";
-import { Helmet } from "react-helmet";
+import { Project } from "./Project";
 
 /*
   This example requires some changes to your config:
@@ -121,7 +118,7 @@ const callouts = [
     imageSrc: [
       "https://i.imgur.com/vXg7Xsz.png",
       "https://i.imgur.com/w1UtFL9.png",
-      "https://i.imgur.com/FE17aoP.png",
+      "httpmps://i.imgur.com/FE17aoP.png",
     ],
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "#",
@@ -142,61 +139,53 @@ const callouts = [
 export default function Projects() {
   return (
     <div className="flex-1">
-      <Helmet>
-        <title>Projects | Madhavi Meegahapola</title>
-      </Helmet>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
           <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-            {callouts.map((callout) => (
-              <div key={callout.name} className="group relative">
-                <div className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0">
-                  <img
-                    src={callout.imageSrc}
-                    alt={callout.imageAlt}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <h3 className="mt-6 text-md text-gray-900">
-                  <a href={callout.href}>
-                    <span className="absolute inset-0" />
-                    {callout.name}
-                  </a>
-                </h3>
-                <p className="text-base text-gray-500">{callout.description}</p>
-                <p className="text-base font-medium text-gray-700 mt-2 mb-2">
-                  <FontAwesomeIcon className="inline w-6 mr-4" icon={faCode} />
-                  {callout.skills}
-                </p>
-                <div className="flex gap-2">
-                  {callout.links.map((link) => (
-                    <div key={link.url} className="group relative">
-                      <div className=" mb-6 ">
-                        <a
-                          href={link.url}
-                          className="text-gray-800 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-bold uppercase rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-10"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <FontAwesomeIcon
-                            className="inline w-6 mr-4"
-                            icon={faGlobe}
-                          />
-                          <span
-                            className="absolute inset-0 text-gray-900 hover:text-gray-400 dark:hover:text-white"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          />
-                          {link.label}
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            {callouts.map((callout, index) => (
+              <Project callout={callout} key={index} />
             ))}
+          </div>
+        </div>
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+          <h2 className="text-2xl font-bold text-gray-900">Codepen Projects</h2>
+
+          <p
+            className="codepen mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
+            // data-height="300"
+            // data-default-tab="html,result"
+            // data-slug-hash="XWBjjKp"
+            // data-user="madie86"
+            // style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+          >
+            <img
+              className="h-full w-full"
+              src="https://i.imgur.com/KoFoxio.png"
+            />
+
+            <span>
+              See the Pen
+              <a href="https://codepen.io/madie86/pen/XWBjjKp">
+                Generate Simpsons Quotes
+              </a>
+              by Madhavi (<a href="https://codepen.io/madie86">@madie86</a>) on
+              <a href="https://codepen.io">CodePen</a>.
+            </span>
+          </p>
+          <script
+            className="h-full w-full"
+            async
+            src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+          ></script>
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://www.youtube.com/embed/pvGeWq94dAQ"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

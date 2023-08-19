@@ -17,7 +17,7 @@ function AboutMe() {
           junior software engineer with a background in civil engineering, I
           bring a unique set of skills and perspectives to the field of
           technology. In addition, my experience as a volunteer digital hub
-          tutor has inspired me to focus on user experience design.
+          tutor has inspired me to focus on software development.
         </p>
         <p className="mt-2">
           Teaching people how to navigate tech devices, such as basic computer
@@ -29,7 +29,7 @@ function AboutMe() {
           Overall, my background in civil engineering and experience as a
           digital hub tutor have shaped my approach to software development. I
           am excited to continue learning and growing in this field, and I look
-          forward to contributing my unique perspective to future projects.
+          forward to contribute my unique perspective to future projects.
         </p>
 
         <div className="overflow-x-auto mt-10">
@@ -38,13 +38,15 @@ function AboutMe() {
             <div className="flex space-x-6">
               <ul className="list-none ">
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>C language</li>
+                <li>React.js | Vue.js</li>
                 <li>Ruby | Ruby-on-Rails</li>
                 <li>CSS | SCSS</li>
                 <li>HTML5</li>
-                <li>Node | Express.js</li>
-                <li>Bootstrap | Tailwind</li>
-                <li>Figma</li>
+                <li>Node.js | Express.js</li>
+                <li>Bootstrap CSS| Tailwind CSS</li>
+                <li>UNIX</li>
+                <li>Figma design tool</li>
                 <li>Postman | CURL</li>
                 <li>TRELLO</li>
 
@@ -78,63 +80,70 @@ function AboutMe() {
               <img
                 src="https://i.imgur.com/G8CZMt6.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="React"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/XLUAiSs.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="node js"
+              />
+            </div>
+            <div className="overflow-x-auto">
+              <img
+                src="https://i.imgur.com/hSTMntO.png"
+                className="w-6 md:w-12"
+                alt="C language"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/QISfjom.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="javascript"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/AKHPl1S.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="Ruby"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/VMI6RzS.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="postgresql"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/eMQ900P.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="HTML5"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/FlX1enD.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="Tailwind CSS"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/x9sHxFE.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="Bootsrap CSS"
               />
             </div>
             <div className="overflow-x-auto">
               <img
                 src="https://i.imgur.com/3Ss2h91.png"
                 className="w-6 md:w-12"
-                alt=""
+                alt="Postman"
               />
             </div>
           </div>

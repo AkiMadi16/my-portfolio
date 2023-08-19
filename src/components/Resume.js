@@ -137,13 +137,15 @@ export default function Resume() {
             <h2 className="text-light font-semibold mb-4">Skills & Tools</h2>
             <ul className="list-none  ">
               <li>JavaScript</li>
-              <li>React</li>
+              <li>C language</li>
+              <li>React.js | Vue.js</li>
               <li>Ruby | Ruby-on-Rails</li>
               <li>CSS | SCSS</li>
               <li>HTML5</li>
-              <li>Node | Express.js</li>
-              <li>Bootstrap | Tailwind</li>
-              <li>Figma</li>
+              <li>Node.js| Express.js</li>
+              <li>Bootstrap CSS| Tailwind CSS</li>
+              <li>UNIX</li>
+              <li>Figma design tool</li>
               <li>Postman | CURL</li>
               <li>TRELLO</li>
 

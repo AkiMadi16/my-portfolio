@@ -1,3 +1,19 @@
 .card {
   background-color: rgb(220, 207, 110);
 }
+
+.carousel {
+  display: inline-flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+/* .carousel img {
+  min-width: 100%;
+  height: auto;
+  scroll-snap-align: start;
+} */
