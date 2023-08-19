@@ -141,6 +141,7 @@ export default function Projects() {
             <img
               className="h-full w-full"
               src="https://i.imgur.com/KoFoxio.png"
+              alt="codepen simpson img"
             />
 
             <span>
@@ -159,9 +160,10 @@ export default function Projects() {
           ></script> */}
           <div className="aspect-w-16 aspect-h-9">
             <iframe
+              title="video"
               src="https://www.youtube.com/embed/pvGeWq94dAQ"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              className="h-full w-full"
+              allow="accelerometer; autoplay; clipboardWrite; encryptedMedia; gyroscope; pictureInPicture"
               allowFullScreen
             ></iframe>
           </div>
